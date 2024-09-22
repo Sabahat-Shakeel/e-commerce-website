@@ -20,11 +20,11 @@ export function Jewllery4() {
         </Link>
         <Link href="/makeup">
           <p className="text-base  text-black mt-4 mb-2 dark:text-neutral-200">
-            Makeup Arrivals Collections
+          Jewllery Collections Arrival
           </p>
         </Link>
         <p className="text-xs text-neutral-600 dark:text-neutral-400">
-          The pretty Organic Makeup's Bred will release on Saturday, February
+          The pretty Organic Makeup Bred will release on Saturday, February
           17, 2024. Your best opportunity to get these right now is by entering
           raffles and waiting for the official releases.
         </p>

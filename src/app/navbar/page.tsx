@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   return (
@@ -46,7 +47,7 @@ function Navbar() {
               value="Search"
             />
             {/* <div className=" p-0 sm:flex sm:justify-end lg:flex lg:justify-end xl:flex xl:justify-end"> */}
-            <img
+            <Image
               className=" flex justify-end sm:h-9 sm:flex  sm:mr-2 sm:-translate-y-1/4 sm hover:opacity-75 cursor-pointer rounded-md px-1 border-neutral-400 h-[16px] ml-8 -translate-y-3 sm:translate-  sm:ml-11  "
               src="/shop.png"
               alt="cart"

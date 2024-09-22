@@ -18,7 +18,7 @@ export function BackgroundGradientDemotwo() {
         />
         <Link href="">
           <p className="text-base text-black mt-4 mb-2 dark:text-neutral-200">
-            Women's New Collections
+            Women&apos;s New Collections
           </p>
         </Link>
 

@@ -15,7 +15,7 @@ const Headd = () => {
         </div>
       </div>
       <h1 className="flex justify-around p-2 sm:text-5xl font-bold text-slate-900 text-opacity-90 sm:p-4 sm:w-2/2">
-        Men Wastern Fashion
+        Men&apos;s Wastern Fashion
       </h1>
       <p className=" font-light text-neutral-600 dark:text-neutral-500 text-xs m-4 p-2 sm:text-base sm:w-5/6 md:ml-28 md:p-11 sm:ml-11 sm:p-6">
         {" "}

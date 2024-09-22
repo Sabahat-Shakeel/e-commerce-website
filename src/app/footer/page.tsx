@@ -62,7 +62,7 @@ const Footer = () => {
           <li className="hover:underline hover:cursor-pointer">
             Health Benefits
           </li>
-          <li className="hover:underline hover:cursor-pointer">FAQ's</li>
+          <li className="hover:underline hover:cursor-pointer">FAQ&apos;s</li>
         </ul>
       </div>
       <div>

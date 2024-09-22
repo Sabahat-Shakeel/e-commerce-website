@@ -24,7 +24,7 @@ export function Women3() {
           </p>
         </Link>
         <p className="text-xs text-neutral-600 dark:text-neutral-400">
-          The pretty Organic Makeup's Bred will release on Saturday, February
+        The pretty The pretty cool denam jen for girls, February
           17, 2024. Your best opportunity to get these right now is by entering
           raffles and waiting for the official releases.
         </p>

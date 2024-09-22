@@ -19,7 +19,7 @@ export function BackgroundGradientDemo() {
         </Link>
         <Link href="/menscollections">
           <p className="text-base sm:text-base text-black mt-4 mb-2 dark:text-neutral-200">
-            Men's New Collections
+            Men&apos;s New Collections
           </p>
         </Link>
 
