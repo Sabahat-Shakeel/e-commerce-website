@@ -4,7 +4,7 @@ import { BackgroundGradient } from "@/app/components/ui/background-gradient";
 import Image from "next/image";
 import Link from "next/link";
 
-export function BackgroundGradientDemo() {
+function BackgroundGradientDemo() {
   return (
     <div className=" inline-table  bg-slate-100 rounded-2xl">
       <BackgroundGradient className="rounded-[22px]  max-w-sm p-4 sm:p-10 bg-white dark:bg-zinc-900">
@@ -38,3 +38,4 @@ export function BackgroundGradientDemo() {
     </div>
   );
 }
+export default BackgroundGradientDemo;
