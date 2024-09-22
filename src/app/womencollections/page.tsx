@@ -1,10 +1,10 @@
 import Cover from "./cover/page";
-import { Women1 } from "./wocard1/page";
-import { Women2 } from "./wocard2/page";
-import { Women3 } from "./wocard3/page";
-import { Women4 } from "./wocard4/page";
-import { Women5 } from "./wocard5/page";
-import { Women6 } from "./wocard6/page";
+import  Women1  from "./wocard1/page";
+import  Women2  from "./wocard2/page";
+import  Women3  from "./wocard3/page";
+import  Women4  from "./wocard4/page";
+import  Women5  from "./wocard5/page";
+import Women6  from "./wocard6/page";
 
 const Women = ()=>{
     return (

@@ -6,7 +6,7 @@ import  BackgroundGradient  from "@/app/components/ui/background-gradient";
 import Image from "next/image";
 import Link from "next/link";
 
-export function Makeup12() {
+ export default function Makeup12() {
   return (
     <div className="sm:inline-table lg:ml-16  lg:px-4 inline-table  ">
       <BackgroundGradient className="rounded-[22px] max-w-lg p-4 sm:p-10 bg-white dark:bg-zinc-900">

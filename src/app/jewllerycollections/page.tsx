@@ -1,16 +1,16 @@
 import Imge from "./cover/page";
-import { Jewllery13 } from "./jawcard12/page";
-import { Jewllery2 } from "./jewcard1/page";
-import { Jewllery11 } from "./jewcard10/page";
-import { Jewllery12 } from "./jewcard11/page";
-import { Jewllery3 } from "./jewcard2/page";
-import { Jewllery4 } from "./jewcard3/page";
-import { Jewllery5 } from "./jewcard4/page";
-import { Jewllery6 } from "./jewcard5/page";
-import { Jewllery7 } from "./jewcard6/page";
-import { Jewllery8 } from "./jewcard7/page";
-import { Jewllery9 } from "./jewcard8/page";
-import { Jewllery10 } from "./jewcard9/page";
+import  Jewllery13  from "./jawcard12/page";
+import  Jewllery2  from "./jewcard1/page";
+import  Jewllery11  from "./jewcard10/page";
+import  Jewllery12  from "./jewcard11/page";
+import  Jewllery3  from "./jewcard2/page";
+import  Jewllery4  from "./jewcard3/page";
+import  Jewllery5  from "./jewcard4/page";
+import  Jewllery6 from "./jewcard5/page";
+import  Jewllery7  from "./jewcard6/page";
+import  Jewllery8  from "./jewcard7/page";
+import  Jewllery9  from "./jewcard8/page";
+import  Jewllery10  from "./jewcard9/page";
 
 const Jewllery = () => {
   return (

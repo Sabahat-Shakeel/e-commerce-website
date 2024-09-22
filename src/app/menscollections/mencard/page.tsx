@@ -4,7 +4,7 @@ import  BackgroundGradient  from "@/app/components/ui/background-gradient";
 import Image from "next/image";
 import Link from "next/link";
 
-export function MensCard() {
+export default function MensCard() {
   return (
     <div className=" lg:ml-6 sm:inline-table inline-table ">
       <BackgroundGradient className="text-xs rounded-[22px] max-w-lg p-4 sm:p-10 bg-white dark:bg-zinc-900">
