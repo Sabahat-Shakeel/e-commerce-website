@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import  BackgroundGradient  from "@/app/components/ui/background-gradient";
+import BackgroundGradient from "@/app/components/ui/background-gradient";
 // import { IconAppWindow } from "@tabler/icons-react";
 
 import Image from "next/image";
@@ -22,12 +22,12 @@ export function Jewllery13() {
         </Link>
         <Link href="/makeup">
           <p className="text-base  text-black mt-4 mb-2 dark:text-neutral-200">
-          Jewllery Collections Arrival
+            Jewllery Collections Arrival
           </p>
         </Link>
         <p className="text-xs text-neutral-600 dark:text-neutral-400">
-          The pretty Organic Makeup Bred will release on Saturday, February
-          17, 2024. Your best opportunity to get these right now is by entering
+          The pretty Organic Makeup Bred will release on Saturday, February 17,
+          2024. Your best opportunity to get these right now is by entering
           raffles and waiting for the official releases.
         </p>
         <button className="text-xs hover:text-white hover:bg-black rounded-full pl-4 pr-1 py-1  flex items-center space-x-1 mt-4  font-bold bg-white  text-black dark:bg-zinc-50">
