@@ -14,7 +14,6 @@ function Navbar() {
         </div>
       </div>
       <div className="bg-black  ">
-  
         <nav className=" text-xs   ">
           <ul className="flex lg:justify-center ml-2 gap-2 sm:text-base sm:mr-40 sm:pt-2 sm:flex lg:flex xl:flex 2xl:flex   ">
             <li className=" text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
@@ -47,12 +46,12 @@ function Navbar() {
               value="Search"
             />
             {/* <div className=" p-0 sm:flex sm:justify-end lg:flex lg:justify-end xl:flex xl:justify-end"> */}
-            <Image
+            {/* <Image
               className=" flex justify-end sm:h-9 sm:flex  sm:mr-2 sm:-translate-y-1/4 sm hover:opacity-75 cursor-pointer rounded-md px-1 border-neutral-400 h-[16px] ml-8 -translate-y-3 sm:translate-  sm:ml-11  "
               src="/shop.png"
               alt="cart"
               defaultValue={"cart"}
-            />
+            /> */}
 
             {/* </div> */}
           </div>

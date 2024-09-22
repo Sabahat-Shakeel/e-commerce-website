@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { BackgroundGradient } from "@/app/components/ui/background-gradient";
+import  BackgroundGradient  from "@/app/components/ui/background-gradient";
 
 import Image from "next/image";
 import Link from "next/link";
