@@ -7,9 +7,10 @@ const Headd = () => {
           <Image
             src="/cov1.jpg"
             alt="men clothes gallery"
-            height="100"
-            width="1200"
-            className="  object-contain flex justify-center"
+            height="500"
+            width="900"
+            className="object-contain"
+            priority
           />
         </div>
       </div>

@@ -5,9 +5,10 @@ const Cover = () => {
       <Image
         src="/cover.jpg"
         alt="men clothes gallery"
-        height="100"
-        width="1200"
+        height="1000"
+        width="1000"
         className="  sm:rounded-sm object-contain flex justify-center"
+        priority
       />
     </div>
   );
