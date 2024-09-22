@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export function MensCard7() {
   return (
-    <div className=" sm:justify-center  lg:ml-14 lg:px-3 inline-table">
-      <BackgroundGradient className="rounded-[22px] max-w-[328px] p-4 sm:p-10 bg-white dark:bg-zinc-900">
+    <div className=" lg:ml-6 sm:inline-table inline-table">
+      <BackgroundGradient className="rounded-[22px] max-w-lg p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <Image
           src="/j7.jpg"
           alt="men clothes gallery"

@@ -17,7 +17,7 @@ function BackgroundGradientDemotwo() {
           width="500"
           className="object-contain"
         />
-        <Link href="">
+        <Link href="/womencollections">
           <p className="text-base text-black mt-4 mb-2 dark:text-neutral-200">
             Women&apos;s New Collections
           </p>
@@ -38,4 +38,4 @@ function BackgroundGradientDemotwo() {
     </div>
   );
 }
-export default BackgroundGradientDemofour;
+export default BackgroundGradientDemotwo;

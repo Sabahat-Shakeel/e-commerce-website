@@ -7,7 +7,7 @@ import Link from "next/link";
 export function MensCard4() {
   return (
     <div className=" sm:justify-center  lg:ml-16 lg:px-4 inline-table">
-      <BackgroundGradient className="rounded-[22px] max-w-xs p-4 sm:p-10 bg-white dark:bg-zinc-900">
+      <BackgroundGradient className="rounded-[22px] max-w-lg p-4 sm:p-10 bg-white dark:bg-zinc-900">
         <Image
           src="/j4.jpg"
           alt="men clothes gallery"

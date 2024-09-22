@@ -6,8 +6,8 @@ import Link from "next/link";
 
 export function MensCard3() {
   return (
-    <div className="inline-table">
-      <BackgroundGradient className="rounded-[22px] max-w-xs p-4 sm:p-10 bg-white dark:bg-zinc-900">
+    <div className=" lg:ml-6 sm:inline-table inline-table">
+      <BackgroundGradient className="rounded-[22px] max-w-lg p-4 sm:p-10 bg-white dark:bg-zinc-900">
         
         <Image
           src="/j3.jpg"
