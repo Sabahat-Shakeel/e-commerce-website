@@ -5,13 +5,13 @@ const Main = () => {
     <div>
       <main className="bg-[#d8e2dc] flex flex-col justify-center items-center min-h-screen px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="font-[Poppins] font-semibold text-3xl sm:text-4xl lg:text-6xl">
+          <h1 className="font-[Poppins] font-semibold text-4xl sm:text-4xl lg:text-6xl">
             LONG WEEKEND
           </h1>
-          <h1 className="font-extrabold pt-4 text-2xl sm:text-3xl lg:text-5xl">
+          <h1 className="font-extrabold pt-4 text-4xl sm:text-3xl lg:text-5xl">
             SALE <span className="text-cyan-900">30 - 60%</span> OFF
           </h1>
-          <h1 className="font-extrabold pt-4 text-2xl sm:text-3xl lg:text-5xl">
+          <h1 className="font-extrabold pt-4 text-4xl sm:text-3xl lg:text-5xl">
             EXTRA <span className="text-cyan-900">20%</span> OFF
           </h1>
         </div>
