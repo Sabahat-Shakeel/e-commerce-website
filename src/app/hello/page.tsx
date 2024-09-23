@@ -3,7 +3,7 @@ import React from "react";
 const Main = () => {
   return (
     <div>
-      <main className="bg-[#d8e2dc] flex flex-col justify-center items-center min-h-screen px-4 sm:px-6 lg:px-8">
+      <main className="bg-[#d8e2dc] flex flex-col justify-center items-center py-10 sm:min-h-screen  px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="font-[Poppins] font-semibold text-4xl sm:text-4xl lg:text-6xl">
             LONG WEEKEND
