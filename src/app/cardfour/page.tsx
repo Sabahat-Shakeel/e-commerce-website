@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 import  BackgroundGradient from "@/app/components/ui/background-gradient";
 // import { IconAppWindow } from "@tabler/icons-react";
@@ -16,9 +17,11 @@ function BackgroundGradientDemofour() {
           width="500"
           className="object-contain"
         />
-        <p className="text-xs sm:text-base text-black mt-4 mb-2 dark:text-neutral-200">
+        <Link href="/jewllerycollections">
+        <p className="text-base sm:text-base text-black mt-4 mb-2 dark:text-neutral-200">
           Jewllery Arrivals Collections
         </p>
+        </Link>
 
         <p className=" text-neutral-600 dark:text-neutral-400 text-xs sm:text-xs">
           The pretty gorgeous jewlllery Bred will release on Saturday, February
