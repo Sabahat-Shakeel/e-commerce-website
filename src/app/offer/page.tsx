@@ -6,7 +6,7 @@ const Offer = () => {
       <hr />
       <main className="flex bg-black py-11 lg:block lg:h-screen content-center">
         <h1 className="text-6xl text-neutral-500 lg:text-8xl dark:text-neutral-300  text-center">
-          70 % OFF YOUR FIRST ORDER
+          50 % OFF YOUR FIRST ORDER
         </h1>
       </main>
       <h1 className=" flex justify-center m-2 text-lg font-bold p-2 text-slate-600 dark:slate-400">

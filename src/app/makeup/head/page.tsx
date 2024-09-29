@@ -1,3 +1,4 @@
+"use client"
 import Image from "next/image";
 const Headd1 = ()=>{
     return (
@@ -10,10 +11,17 @@ const Headd1 = ()=>{
           alt="men clothes gallery"
           height="100"
           width="1000"
+          priority
           className=" bg-gradient-to-r rounded-sm sm:px-28  sm:py-1  object-contain flex justify-center"
         />
        
     
+        </div>
+        <div>
+        <h1 className="flex justify-around p-2 sm:text-5xl font-bold text-slate-900 text-opacity-90 sm:p-4 sm:w-2/2">
+        
+        Cosmetica
+      </h1>
         </div>
       
             <p className="  font-light text-neutral-600 dark:text-neutral-500 text-xs m-4 p-2 sm:text-base sm:w-5/6 md:ml-28 md:p-11 sm:ml-11 sm:p-6"> Stay stylish and comfortable with our collection of full Availibility of Womens Lipstick and Blusher cool and pretty. Soft and high-quality materials, these are perfect for all season, the perfect addition to your wardrobe. Upgrade your everyday look with our pretty and cool costmatic. Shop now and elevate your style.</p>

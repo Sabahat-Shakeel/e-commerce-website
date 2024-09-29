@@ -1,63 +1,93 @@
-import React from "react";
+'use client'
+import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 
 function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
-    <div className="">
-      {/* <h1 className="font-extrabold text-pink-600 text-opacity-80 py-2 ">sbt-brand</h1> */}
-      <div className="marquee-container  bg-[#0f4c5c]">
-        <div className="marquee-content  ">
-          <span className="sm:text-base  text-sm font-extralight font-sans text-neutral-100 hover:text-gray-200 ">
+    <div>
+      {/* Navbar with marquee and brand */}
+      <div className="marquee-container bg-[#0f4c5c]">
+        <div className="marquee-content">
+          <span className="sm:text-base text-sm font-extralight font-sans text-neutral-100 hover:text-gray-200">
             Sbt -E- Commerce-Website
           </span>
         </div>
       </div>
-      <div className="bg-black  ">
-        <nav className=" text-base   ">
-          <ul className="flex lg:justify-center ml-2 gap-2 sm:text-base sm:mr-40 sm:pt-2 sm:flex lg:flex xl:flex 2xl:flex   ">
-            <li className=" text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
+
+      {/* Navbar with links */}
+      <div className="bg-black">
+        <nav className="text-base">
+          {/* Hamburger icon for mobile view */}
+          <div className="flex justify-between items-center px-4 sm:hidden">
+           
+            <button
+              onClick={toggleMenu}
+              className="text-neutral-500 hover:text-gray-100 focus:outline-none"
+            >
+              {/* Hamburger icon */}
+              <svg
+                className="w-6 h-6"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16m-7 6h7"
+                />
+              </svg>
+            </button>
+          </div>
+
+          {/* Links for desktop and mobile view */}
+          <ul
+            className={`${
+              isOpen ? "block" : "hidden"
+            } sm:flex flex-col sm:flex-row  px-4 sm:px-0 sm:ml-2 justify-around`}
+          >
+            <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
               <Link href="/">Home</Link>
             </li>
             <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
               <Link href="/menscollections">Men</Link>
             </li>
             <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
-              <Link href="womencollections">Women</Link>
+              <Link href="/womencollections">Women</Link>
             </li>
-            <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100 cursor-pointer ">
+            <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
               <Link href="/jewllerycollections">Jewllery</Link>
             </li>
-            <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100 cursor-pointer ">
+            <li className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100">
               <Link href="/makeup">Makeup</Link>
             </li>
           </ul>
 
-          <div className="flex  justify-center sm:ml-20 sm:flex sm:justify-end ">
+          {/* Search bar */}
+          <div className="flex justify-center items-center text-center py-1 sm:ml-20 sm:flex sm:justify-center px-4 sm:px-0 ">
             <input
-              className="rounded-lg m-2 sm:placeholder:px-14 sm:py-[10px] sm:m-2 lg:px-11 xl:px-11 sm:rounded-xl bg-neutral-200 hover:bg-gray-100 dark:text-neutral-900  placeholder:text-[12px] outline-none placeholder-slate-400 text-center sm:-translate-y-3  sm:ml-44"
+              className=" justify-center flex rounded-lg m-2 sm:m-2 lg:px-11 xl:px-11 sm:rounded-xl bg-neutral-200 hover:bg-gray-100 dark:text-neutral-900 placeholder:text-[12px] outline-none text-center"
               type="search"
               placeholder="Shopping"
-              id=""
             />
             <input
-              className="text-neutral-500  dark:text-neutral-300  hover:text-gray-100 sm:-translate-y-3 "
+              className="text-neutral-500 dark:text-neutral-300 hover:text-gray-100 m-2"
               type="button"
               value="Search"
             />
-            {/* <div className=" p-0 sm:flex sm:justify-end lg:flex lg:justify-end xl:flex xl:justify-end"> */}
-            {/* <Image
-              className=" flex justify-end sm:h-9 sm:flex  sm:mr-2 sm:-translate-y-1/4 sm hover:opacity-75 cursor-pointer rounded-md px-1 border-neutral-400 h-[16px] ml-8 -translate-y-3 sm:translate-  sm:ml-11  "
-              src="/shop.png"
-              alt="cart"
-              defaultValue={"cart"}
-            /> */}
-
-            {/* </div> */}
           </div>
         </nav>
       </div>
     </div>
   );
 }
+
 export default Navbar;

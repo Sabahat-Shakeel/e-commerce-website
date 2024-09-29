@@ -3,16 +3,16 @@ import React from "react";
 const Main = () => {
   return (
     <div>
-      <main className="bg-[#d8e2dc] flex flex-col justify-center items-center py-10 sm:min-h-screen  px-4 sm:px-6 lg:px-8">
+      <main className="bg-[#b9baa3] flex flex-col justify-center items-center py-10 sm:min-h-screen  px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <h1 className="font-[Poppins] font-semibold text-4xl sm:text-4xl lg:text-6xl">
+          <h1 className="font-[Poppins] font-semibold text-4xl sm:text-4xl lg:text-8xl">
             LONG WEEKEND
           </h1>
-          <h1 className="font-extrabold pt-4 text-4xl sm:text-3xl lg:text-5xl">
+          <h1 className="font-extrabold pt-4 text-4xl sm:text-3xl lg:text-6xl pb-2">
             SALE <span className="text-cyan-900">30 - 60%</span> OFF
           </h1>
           <h1 className="font-extrabold pt-4 text-4xl sm:text-3xl lg:text-5xl">
-            EXTRA <span className="text-cyan-900">20%</span> OFF
+            EXTRA <span className="text-cyan-900">10%</span> OFF
           </h1>
         </div>
 
