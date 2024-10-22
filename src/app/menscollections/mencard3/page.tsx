@@ -19,7 +19,7 @@ export default function MensCard3() {
     
          <Link href ="/menscollections">
         <p className="text-sm font-bold sm:text-xl text-black mt-4 mb-2 dark:text-neutral-200">
-        Makeup&apos;s New Collections
+        Men&apos;s New Collections
         </p>
         </Link>
 
